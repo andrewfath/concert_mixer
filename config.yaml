@@ -1,0 +1,28 @@
+mariadb : {user = cm_user,
+  pw= password,
+  ruser = root,
+  rpw = test}
+
+postgres : {'user' : 'postgres',
+  'pw' : 'pgpassword',
+  'port' : '5432',
+  'dbname' : 'concert_db'}
+
+spotify : {'clientid':'f2690a2a17aa4f1db461c005586441d6',
+  'secret':'278f7be1543c41c0885a2f9ffc99a663'}
+
+desired_venues : {list_venue_bk:['Petes Candy','pine box rock shop','Threes Brewing','Shapeshifter Lab',
+        'Rockwood Music Hall'],
+  list_venue_jazz : ['69 Bar', 'django', 'clover club','bar belly','blue note','Little Branch']}
+
+tm_venue_dict : {'Terminal 5':'KovZpZAFkn6A',
+                 'kings-theatre-tickets-brooklyn':'KovZpZAJEa6A',
+                 'brooklynbowl':'KovZpZAIetFA',
+                 'bric summer':'KovZpZAdt7kA',
+                 'bellhouse':'KovZpZAFJntA',
+                 'knitting factory':'KovZpZAaFI1A',
+                 'brooklyn steel':'KovZ917AC-V',
+                 'brooklyn bazaar':'KovZpakPHe',
+                 'bowery ballroom':'KovZpZA7dkJA',
+                 'bowery electric':'KovZpZAFlaEA'}
+
