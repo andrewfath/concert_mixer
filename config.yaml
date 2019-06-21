@@ -7,9 +7,18 @@ postgres : {'user' : 'postgres',
   'pw' : 'pgpassword',
   'port' : '5432',
   'dbname' : 'concert_db'}
+postgres_dj : {'user' : 'django_user',
+  'pw' : 'pgpassword',
+  'port' : '5432',
+  'dbname' : 'concert_db'}
+
+dj_account : {'username': 'admin',
+  'pw': 'djpassword',
+  'email' : 'awf541@gmail.com'}
 
 spotify : {'clientid':'f2690a2a17aa4f1db461c005586441d6',
-  'secret':'278f7be1543c41c0885a2f9ffc99a663'}
+  'secret':'278f7be1543c41c0885a2f9ffc99a663',
+  'redirect_uri':'http://localhost/'}
 
 desired_venues : {list_venue_bk:['Petes Candy','pine box rock shop','Threes Brewing','Shapeshifter Lab',
         'Rockwood Music Hall'],
